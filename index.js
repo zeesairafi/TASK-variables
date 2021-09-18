@@ -16,7 +16,6 @@
  * 1. fullName      -> change it to: My name is {YOUR_NAME}
  * 2. yearOfBirth   -> change it to: I am {YOUR_AGE} years , and make sure you calculate your age from your year of birth
  * 3. hobby         -> change it to: My hobby is {YOUR_HOBBY}
- * 4. family        -> change it to: My family order is {YOUR_FAMILY_ORDER}
  */
 
 // Part 2 answer 👇🏻 ...

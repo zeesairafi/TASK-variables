@@ -57,6 +57,7 @@ try{
     image = "https://user-images.githubusercontent.com/8784343/133905760-4e6adc27-e3ff-40ac-9999-f0c419b14311.png"
     setTimeout(function(){
       document.getElementById('_image').src = image;
+      console.error("Hidden task!: Change the image to be constant not variable")
     }, 10000)
   }
   catch(error){
