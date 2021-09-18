@@ -8,11 +8,8 @@
  * 5. image         -> assign it a value of a url of your image or any image that represents you online
  */
 
-let fullName = "Hikaru Nakamura"
-let yearOfBirth = 1987
-let hobby = "Playing Chess"
-let funFact = "I don't lose chess!"
-let image = "https://pbs.twimg.com/profile_images/1370552383151828995/k0xtMmPB_400x400.jpg"
+// Part 1 answer 👇🏻 ...
+
 
 /** Part 2: Operations
  * After creating the variables, modify them again by making them full sentences
@@ -22,7 +19,4 @@ let image = "https://pbs.twimg.com/profile_images/1370552383151828995/k0xtMmPB_4
  * 4. family        -> change it to: My family order is {YOUR_FAMILY_ORDER}
  */
 
-
-fullName = `My name is ${fullName}`
-yearOfBirth = `I am ${2021 - yearOfBirth} years old`
-hobby = `My hobby is ${hobby}`
+// Part 2 answer 👇🏻 ...
