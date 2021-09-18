@@ -20,16 +20,13 @@ try{
   document.getElementById('_image').src = placeholderAvatar;
 }
 try{
-  document.getElementById('_github').innerText = github
+  document.getElementById('_dob').innerText = yearOfBirth
 }catch(error){console.error(error)}
 try{
   document.getElementById('_hobby').innerText = hobby
 }catch(error){console.error(error)}
 try{
   document.getElementById('_funFact').innerText = funFact
-}catch(error){console.error(error)}
-try{
-  document.getElementById('_familyOrder').innerText = familyOrder
 }catch(error){console.error(error)}
 
 let current = 1
@@ -60,7 +57,7 @@ try{
     image = "https://user-images.githubusercontent.com/8784343/133905760-4e6adc27-e3ff-40ac-9999-f0c419b14311.png"
     setTimeout(function(){
       document.getElementById('_image').src = image;
-    }, 1000)
+    }, 10000)
   }
   catch(error){
     console.log("✅ Great! you made the image constant")
