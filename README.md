@@ -11,6 +11,7 @@ After this task you should be able to have a better understanding of variables, 
 - 🔴 DON'T MAKE ANY CHANGES ON `index.html`. This is a lesson about JavaScript, not HTML.
 
 ### 1. Variable / constant creation 
+
 In `index.js` you should define the following variables with the exact names 
 1. `fullName`      -> assign it a value of your full name
 2. `yearOfBirth`   -> assign it a value of your year of birth
@@ -21,6 +22,7 @@ In `index.js` you should define the following variables with the exact names
 
  
 This how it should look like
+
 ![screenshot](https://user-images.githubusercontent.com/8784343/133906548-0bf3f1f2-389d-4fd4-ae83-03cbcb2f6978.gif)
 
 
@@ -28,9 +30,11 @@ This how it should look like
 ### 2. Mutate the variables
 
 Variables are made to be mutated, which means it can be changed. Notice that we're just printing values "Playing Chess", "1987", ..., let's make it more representive by modifying the variables and add some descriptions on them
+
 1. `fullName`      -> change it to: `My name is {YOUR_NAME}`
 2. `yearOfBirth`   -> change it to: `I am {YOUR_AGE}`, and make sure you calculate your age from your year of birth
 3. `hobby`         -> change it to: `My hobby is {YOUR_HOBBY}`
 
 This how it should look like
+
 ![screenshot](https://user-images.githubusercontent.com/8784343/133906790-3012aad2-4adc-489a-ae49-b80c74f8a7f7.gif)
