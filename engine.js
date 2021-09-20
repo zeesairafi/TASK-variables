@@ -9,7 +9,7 @@
  * which is one of the reasons JS eas invented! 
  */
 try{
-  document.getElementById('_fullName').innerText = `I am ${fullName}`
+  document.getElementById('_fullName').innerText =  typeof fullNameString !== "undefined" ? fullNameString : fullName;
 }
 catch(error){console.error(error)}
 try{
@@ -20,10 +20,10 @@ try{
   document.getElementById('_image').src = placeholderAvatar;
 }
 try{
-  document.getElementById('_dob').innerText = `I was born in ${yearOfBirth} م`
+  document.getElementById('_dob').innerText =  typeof yearOfBirthString !== "undefined" ? yearOfBirthString : yearOfBirth
 }catch(error){console.error(error)}
 try{
-  document.getElementById('_hobby').innerText = `I like ${hobby}!`
+  document.getElementById('_hobby').innerText =  typeof hobbyString !== "undefined" ? hobbyString : hobby
 }catch(error){console.error(error)}
 try{
   document.getElementById('_funFact').innerText = `Did you know that ${funFact}`
@@ -76,6 +76,7 @@ function refreshStars(){
     console.error("⚠️ Make sure you add stars ⭐️", error)
   }
 }
+
 
 
 /**
