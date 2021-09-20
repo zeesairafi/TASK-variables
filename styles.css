@@ -1,3 +1,5 @@
+/*  🔴🔴 DON'T TOUCH THIS FILE 🔴🔴  */
+
 body {
   background: #f1f1f1;
   color: #222;
@@ -6,7 +8,7 @@ body {
 
 .wrapper {
   padding: 100px;
-  width: 700px;
+  width: 1000px;
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -36,8 +38,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
+
+.stars-wrapper{
+  display: block;
+  text-align: center;
+
 }
