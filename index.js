@@ -10,7 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
+let fullName = "Zainab AlSairafi";
+let yearOfBirth= 2021-1996;
+let hobby= "Coding, Crochet, Diving, Martial Arts, Yoga";
+let funFact = "I LOVE WATCHING FRIENDS AND EATING PASTA";
+const image = "https://pbs.twimg.com/profile_images/1456600614012690435/Ds2QMBl4_400x400.jpg";
 
 
 
@@ -29,13 +33,14 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `${yearOfBirth}`;
+const hobbyString =` ${hobby}`;
 
 
+const myStatus= `My Name is ${fullName}` `\n I am ${yearOfBirth}` `\n My hobby is {hobby}`;
 
-
+console.log(myStatus);
 /**
  * Part 3: Re-assignment
  * Increment your hacker score
@@ -45,14 +50,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars+=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars-=2;
 }
